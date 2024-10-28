@@ -1,0 +1,27 @@
+header{background-color: darkgray;color: darkgoldenrod;width: 98%;}
+nav {background-color:#e5d8d0;
+	width: 28%;
+	height: 480px;
+	float: left;border: 1px solid gray;
+}
+section {
+	background-color:#e5d8d0;
+	width: 70%;
+	height: 480px;
+	float: left;
+}
+
+h1{text-align: center; font-size:38px; margin-left: 85px;}
+h2 {margin-left:90px;}
+a{ font-size:24px;
+font-weight:bold;
+	margin-top:20px;
+	margin-left:30px;
+	display: block;
+}
+iframe { 	width: 99%; height: 470px; }
+
+.bt{margin-right: 30px;font-size: 16px; font-weight:bold;}
+
+label{display: inline-block; width: 170px;font-weight: bold ;font-size: 20;}
+

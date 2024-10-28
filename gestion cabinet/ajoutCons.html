@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controle.js"></script>
+</head>
+<body>
+    <form onsubmit="return verif2()" action="ajoutCons.php" method="post">
+        <fieldset>
+            <h1>ajout d une consultation</h1>
+            <table>
+                <tr><th><label for="">Matricule</label></th><td><input type="text" name="mat" id="mat"></td></tr>
+                <tr><th><label for="">Detail</label></th><td><textarea name="d" id="d" cols="20" rows="2"></textarea></td></tr>
+                <tr><th><label for="">Prochain RDV apres</label></th><td><input type="text" name="prdv" id="prdv"></td></tr>
+                <tr><th><label for="">Honoraire</label></th><td><input type="text" name="h" id="h"></td></tr>
+                <tr><td></td><td><input type="reset" value="annuler"><input type="submit" value="confirmer"></td></tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="controle.js"></script>
+</head>
+<body>
+    <form onsubmit="return verif1()" action="ajoutPat.php" method="post" >
+        <fieldset>
+            <h1>ajout d un patient</h1>
+            <table>
+                <tr><th><label for="">Matricule</label></th><td><input type="text" name="mat" id="mat"></td></tr>
+                <tr><th><label for="">Nom</label></th><td><input type="text" name="n" id="n"></td></tr>
+                <tr><th><label for="">Prenom</label></th><td><input type="text" name="p" id="p"></td></tr>
+                <tr><td></td><td><input type="reset" value="annuler"><input type="submit" value="valider"></td></tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
